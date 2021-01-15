@@ -15,7 +15,7 @@ pipeline {
         KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-id'
         REGISTRY = '192.168.152.75:30002'
         HARBOR_NAMESPACE = 'demo-project'
-        GITLAB_ACCOUNT = 'admin1'
+        GITLAB_ACCOUNT = 'wangting1'
         APP_NAME = 'devops-java-sample'
     }
 

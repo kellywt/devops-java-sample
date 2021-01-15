@@ -17,6 +17,7 @@ pipeline {
         HARBOR_NAMESPACE = 'demo-project'
         GITLAB_ACCOUNT = 'wangting1'
         APP_NAME = 'devops-java-sample'
+        SONAR_CREDENTIAL_ID = 'sonar-token'
     }
 
     stages {

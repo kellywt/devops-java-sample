@@ -10,11 +10,11 @@ pipeline {
     }
 
     environment {
-        HARBOR_CREDENTIAL_ID = 'harbor-id'
+        HARBOR_CREDENTIAL_ID = 'demo-project-harbor-id'
         GITLAB_CREDENTIAL_ID = 'gitlab-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'harbor.devops.kubesphere.local:30280'
-        HARBOR_NAMESPACE = 'library'
+        KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-id'
+        REGISTRY = '192.168.152.75:30002'
+        HARBOR_NAMESPACE = 'demo-project'
         GITLAB_ACCOUNT = 'admin1'
         APP_NAME = 'devops-java-sample'
     }
